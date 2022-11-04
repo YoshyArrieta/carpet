@@ -1,0 +1,54 @@
+
+C:\Users\SENA>cd D:\web
+
+C:\Users\SENA>d:
+
+D:\web>git add .
+
+D:\web>git commit -m "videos en tutoriales"
+Author identity unknown
+
+*** Please tell me who you are.
+
+Run
+
+  git config --global user.email "you@example.com"
+  git config --global user.name "Your Name"
+
+to set your account's default identity.
+Omit --global to set the identity only in this repository.
+
+fatal: unable to auto-detect email address (got 'SENA@DESKTOP-F3TKM1E.(none)')
+
+D:\web>git config --global user.name "YoshyArrieta"
+
+D:\web>git config --global user.email "destroller1616djlove@gmail.com"
+
+D:\web>git config --global user.email destroller1616djlove@gmail.com
+
+D:\web>git commit -m "inicializar proyecto"
+[master (root-commit) f77930f] inicializar proyecto
+ 4 files changed, 581 insertions(+)
+ create mode 100644 cursos.html
+ create mode 100644 index.html
+ create mode 100644 styles.css
+ create mode 100644 tutoriales.html
+
+D:\web>..
+".." no se reconoce como un comando interno o externo,
+programa o archivo por lotes ejecutable.
+
+D:\web>cd ..
+
+D:\>mkdir test
+
+D:\>cd test
+
+D:\test>
+D:\test>cd ..
+
+D:\>cd web
+
+D:\web>code .
+
+D:\web>

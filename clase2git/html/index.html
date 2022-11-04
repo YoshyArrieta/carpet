@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+  </head>
+  <body>
+    <header class="header">
+      <nav class="navbar">
+        <ul>
+        <li>Inicio</li>
+        <li>Nosotros</li>
+        <li>Nuevo</li>
+        </ul>
+      </nav>
+    </header>
+    <div class="content">
+      <!--formulario-->
+      <section>
+        <form action="/send.php">
+            <fieldset>
+                <legend>Datos de la persona</legend>
+                <label>
+                  nombre:
+                  <input
+                    type="text"
+                    name="nombre"
+                    pleaceholder="Escriba su nombre"
+                    minlength="5" maxlength="40" pattern="[A-Z]{5,40}"required>
+                </label>
+            </fieldset>
+        </form>
+      </section>
+      <section>
+        <button onclick="actualizarBoton(event)">clickeame</button>
+        <p>vamos a crear un boton interactivo
+        <span id="num">0</span> </p>
+      </section>
+
+
+    <script>
+        function actualizarBoton( event ) {
+            console.log(event)
+            document.querySelector("#num").textContent
+            =event.detail;
+        }
+    </script>
+
+    </div>
+    <script src="/name.js"></script>
+  </body>
+</html>
